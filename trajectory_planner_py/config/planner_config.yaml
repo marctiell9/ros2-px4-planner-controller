@@ -1,5 +1,0 @@
-# trajectory_planner_py/config/trajectory_generator.yaml
-trajectory_generator:        # ← must match the node **name**
-  ros__parameters:
-    update_rate_hz: 100.0     # double – Hz of the timer (100 Hz default)
-    trajectory_name: figure_8 # string – must exist in _TRAJECTORY_DB
